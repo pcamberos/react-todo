@@ -1,7 +1,21 @@
 import React from 'react';
+import Typography from '@material-ui/core/Typography';
+import TextField from '@material-ui/core/TextField';
 
 function App() {
-  return <h1> Hello World! </h1>        //Esto es jsx
+  return (
+    //Esto es jsx
+    <div>
+      <Typography variant="h1" align="center" gutterBottom> 
+        Todos!
+      </Typography>
+
+      <TextField type="text" placeholder="Write Here!" margin="normal" variant="outlined">
+
+      </TextField>  
+    </div>
+  
+  );
 }
 
 export default App;
